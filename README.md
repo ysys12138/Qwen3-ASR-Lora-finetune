@@ -26,8 +26,8 @@ python upsample.py
 将音频和对应label写入。
 
 ### 3.快速Lora训练
-``` python lora_finetune.py  --model_path Qwen/Qwen3-ASR-1.7B   --train_file ./train-C.jsonl   --eval_file ./eval.jsonl   --output_dir ./qwen3-asr-lora-chinese-1.7B   --batch_size 4   --grad_acc 1   --lr 2e-4 --epochs 20 --use_lora --lora_rank 16 --lora_alpha 32 --lora_dropout 0.05 --target_modules "all-linear" --warmup_ratio 0.05 --save_steps 19 --log_steps 3
- ``` 
+python lora_finetune.py  --model_path Qwen/Qwen3-ASR-1.7B   --train_file ./train-C.jsonl   --eval_file ./eval.jsonl   --output_dir ./qwen3-asr-lora-chinese-1.7B   --batch_size 4   --grad_acc 1   --lr 2e-4 --epochs 20 --use_lora --lora_rank 16 --lora_alpha 32 --lora_dropout 0.05 --target_modules "all-linear" --warmup_ratio 0.05 --save_steps 19 --log_steps 3
+
 
 ### 4.快速尝试Lora结果
 ```python quick_inf.py```
