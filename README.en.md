@@ -1,4 +1,4 @@
-[![en](https://img.shields.io/badge/lang-English-red.svg)](README.md)
+[![en](https://img.shields.io/badge/lang-English-red.svg)](README.en.md)
 [![zh](https://img.shields.io/badge/语言-中文-blue.svg)](README.md)
 # Qwen3-ASR LoRA Fine-tuning Project
 
