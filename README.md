@@ -1,7 +1,7 @@
 # Qwen3-ASR LoRA Fine-tuning Project
 
 基于 Qwen3-ASR 的语音识别 LoRA 微调实现。
-Qwen3-ASR项目原地址：
+Qwen3-ASR项目原地址：https://github.com/QwenLM/Qwen3-ASR
 
 ## 🚀 特性
 - 中文特定领域LORA微调
