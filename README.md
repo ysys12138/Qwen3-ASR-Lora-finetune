@@ -1,6 +1,7 @@
-# Qwen3-ASR LoRA Fine-tuning Project
 [![en](https://img.shields.io/badge/lang-English-red.svg)](README.en.md)
 [![zh](https://img.shields.io/badge/语言-中文-blue.svg)](README.md)
+# Qwen3-ASR LoRA Fine-tuning Project
+
 基于 Qwen3-ASR 的语音识别 LoRA 微调实现。
 Qwen3-ASR项目原地址：https://github.com/QwenLM/Qwen3-ASR
 请从该地址clone主分支并将本目录作为子目录添加
