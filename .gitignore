@@ -31,3 +31,7 @@ split_wavs-old/
 split_wavs/
 testSet/*
 augmented_data/*
+train-C.jsonl
+eval.jsonl
+train-N.jsonl
+train.jsonl
