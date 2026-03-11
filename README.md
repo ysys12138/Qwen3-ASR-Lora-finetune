@@ -9,7 +9,7 @@ Qwen3-ASR项目原地址：https://github.com/QwenLM/Qwen3-ASR
 - 支持修改微调参数
 
 ## 📦 安装依赖
-*请参照README-Origin.md安装所有基础requirements*
+*请参照[原Finetune README](README-Origin.md)安装所有基础requirements*
 - 另外需要:
 ```pip install peft```
 
@@ -22,7 +22,7 @@ python upsample.py
 结果会自动保存到resampled_16k文件夹
 同样方法可以把test set中的音频重采样并保存在res_testSet中
 ### 2.创建（或修改）train.jsonl以及eval.jsonl以及eval
-请参照README-Origin.md[README-Origin.md]来创建正确的jsonl格式
+请参照[原Finetune README](README-Origin.md)来创建正确的jsonl格式
 将音频和对应label写入。
 
 ### 3.快速Lora训练
